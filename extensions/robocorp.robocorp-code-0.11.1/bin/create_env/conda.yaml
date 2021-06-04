@@ -1,0 +1,12 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip=20.1
+  - pip:
+    - robotframework
+    - rpaframework-core==5.2.0
+    - rpaframework-recognition==0.6.0
+    - mss==6.1.0
+    - pillow==8.0.1
